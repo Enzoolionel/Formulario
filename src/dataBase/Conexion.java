@@ -16,12 +16,15 @@ public class Conexion {
   private static Conexion instancia;
 
 //CREAMOS LA VARIABLE QUE VA A CONTENER LA URL DE LA BD
+// PRIVADA Y ESTATICA DE TIPO FINAL
   private static final String url = "jdbc:mysql://localhost/db_registros";
 
 //CREAMOS LA VARIABLE QUE VA A CONTENER EL NOMBRE DE USUARIO DE LA BD
+// PRIVADA Y ESTATICA DE TIPO FINAL
   private static final String userName = "root";
 
 //CREAMOS LA VARIABLE QUE VA A CONTENER LA CONTRASEÑA DE LA BD SI ES QUE TIENE.
+// PRIVADA Y ESTATICA DE TIPO FINAL
   private static final String password = "";
 
 
